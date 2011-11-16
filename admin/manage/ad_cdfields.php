@@ -241,7 +241,7 @@ class td_ad_cdfields {
                             var next_opt = parseInt( $('#opts_num').val() ) + 1;
                             $('#opts_num').val(next_opt);
 
-                            $('#opts_dcr').append(\"<div id='opts_dcr_\"+ next_opt +\"' style='padding-top:4px;display:none'>{lang.key} <input type='text' name='opts_dcr_keys[]' id='opts_dcr_keys_\"+ next_opt +\"' value='' size='8' />&nbsp;&nbsp;{lang.name} <input type='text' name='opts_dcr_names[]' id='opts_dcr_names_\"+ next_opt +\"' value='' size='28' /> <img src='<! IMG_DIR !>/icon_minus_circle.png' alt='-' style='vertical-align:middle;cursor:pointer' onclick='removeDCRopt(\"+ next_opt +\")' />\");
+                            $('#opts_dcr').append(\"<div id='opts_dcr_\"+ next_opt +\"' style='padding-top:4px;display:none'>{lang.key} <input type='text' name='opts_dcr_keys[]' id='opts_dcr_keys_\"+ next_opt +\"' value='' size='8' />&nbsp;&nbsp;{lang.name} <input type='text' name='opts_dcr_names[]' id='opts_dcr_names_\"+ next_opt +\"' value='' size='28' /> <img src='<! IMG_DIR !>/icon_circle_minus.png' alt='-' style='vertical-align:middle;cursor:pointer' onclick='removeDCRopt(\"+ next_opt +\")' />\");
 
                             $('#opts_dcr_'+ next_opt).show('blind');
                         }
@@ -345,7 +345,7 @@ class td_ad_cdfields {
                 }
                 else
                 {
-                    $opts_rows_html .= "<div id='opts_dcr_{$opts_count}'>{lang.key} <input type='text' name='opts_dcr_keys[]' id='opts_dcr_keys_{$opts_count}' value='{$key}' size='8' />&nbsp;&nbsp;{lang.name} <input type='text' name='opts_dcr_names[]' id='opts_dcr_names_{$opts_count}' value='{$name}' size='28' /> <img src='<! IMG_DIR !>/icon_minus_circle.png' alt='-' style='vertical-align:middle;cursor:pointer' onclick='removeDCRopt({$opts_count})' /></div>";
+                    $opts_rows_html .= "<div id='opts_dcr_{$opts_count}'>{lang.key} <input type='text' name='opts_dcr_keys[]' id='opts_dcr_keys_{$opts_count}' value='{$key}' size='8' />&nbsp;&nbsp;{lang.name} <input type='text' name='opts_dcr_names[]' id='opts_dcr_names_{$opts_count}' value='{$name}' size='28' /> <img src='<! IMG_DIR !>/icon_circle_minus.png' alt='-' style='vertical-align:middle;cursor:pointer' onclick='removeDCRopt({$opts_count})' /></div>";
                 }
             }
         }
@@ -410,7 +410,7 @@ class td_ad_cdfields {
                             var next_opt = parseInt( $('#opts_num').val() ) + 1;
                             $('#opts_num').val(next_opt);
 
-                            $('#opts_dcr').append(\"<div id='opts_dcr_\"+ next_opt +\"' style='padding-top:4px;display:none'>{lang.key} <input type='text' name='opts_dcr_keys[]' id='opts_dcr_keys_\"+ next_opt +\"' value='' size='8' />&nbsp;&nbsp;{lang.name} <input type='text' name='opts_dcr_names[]' id='opts_dcr_names_\"+ next_opt +\"' value='' size='28' /> <img src='<! IMG_DIR !>/icon_minus_circle.png' alt='-' style='vertical-align:middle;cursor:pointer' onclick='removeDCRopt(\"+ next_opt +\")' />\");
+                            $('#opts_dcr').append(\"<div id='opts_dcr_\"+ next_opt +\"' style='padding-top:4px;display:none'>{lang.key} <input type='text' name='opts_dcr_keys[]' id='opts_dcr_keys_\"+ next_opt +\"' value='' size='8' />&nbsp;&nbsp;{lang.name} <input type='text' name='opts_dcr_names[]' id='opts_dcr_names_\"+ next_opt +\"' value='' size='28' /> <img src='<! IMG_DIR !>/icon_circle_minus.png' alt='-' style='vertical-align:middle;cursor:pointer' onclick='removeDCRopt(\"+ next_opt +\")' />\");
 
                             $('#opts_dcr_'+ next_opt).show('blind');
                         }
